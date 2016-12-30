@@ -23,7 +23,7 @@ vi Dockerfile
 
 1. On the left, you will see your **inigomontoya** github username.  On the right, you will see the *docker-images* repository.  Click on it and you'll see another form labeled *Create Automated Build* with Repository Namesspace & Name fields.  Change the Name field to "ghost" and enter a short description, and **now click the _Click Here to Customize_ link** - this is very important!
 
-1. Under the *Dockerfile Location* (on the branch labeled *master*) enter **/ghost** - this is the sub-directory of the **docker-images** directory that Docker Hub will look for the _Dockerfile_ in. Enter a Short Description for the container and click the Create button.
+1. Under the *Dockerfile Location* (on the branch labeled *master*) enter **ghost** - this is the sub-directory of the **docker-images** directory that Docker Hub will look for the _Dockerfile_ in. Enter a Short Description for the container and click the Create button.
 
 1. Now you should be on the Docker Hub page for your new **callmeishmael/ghost** container.  You're almost done!  Click on the Build Settings tab and you'll see your build settings for master + /ghost along with a button labeled "Trigger" - click that button.  Now you can click on the Build Details tab and see Docker Hub building your container.  This will take at least a few minutes.
 
