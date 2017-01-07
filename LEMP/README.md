@@ -10,7 +10,7 @@ Use this dataset in the advanced creation section under volumes and map to /var/
 Create index.php in this your maped folder with this content:
 ```
       <?php
-          $link = mysqli_connect("127.0.0.1", "admin", "pass");
+          $link = mysqli_connect("0.0.0.0", "admin", "pass");
 
           if (!$link) {
           echo "Error: Unable to connect to MySQL." . PHP_EOL;
