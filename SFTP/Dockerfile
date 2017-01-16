@@ -4,4 +4,4 @@ LABEL org.freenas.interactive="false" \
       org.freenas.upgradeable="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
-      org.freenas.port-mappings="2222:22/tcp" \                                                    
+      org.freenas.port-mappings="22:2222/tcp" \                                                    
