@@ -1,4 +1,4 @@
-The easiest way to create a small SFTP server to access your shares is via CLI
+The easiest way to create a small SFTP server to access your shares is via CLI change Username and Password and UID (1337) to your liking
 
 ```
 docker container create name=sftp hostname=sftp.local autostart=yes image=freenas/sftp expose_ports=yes port:22/TCP=2222  volume:/home/Username/share/=/host/volume01/data command=Username:Password:1337
