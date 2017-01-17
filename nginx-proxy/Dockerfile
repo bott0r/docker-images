@@ -5,13 +5,7 @@ LABEL org.freenas.interactive="false" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
       org.freenas.bridged="false" \
-      org.freenas.port-mappings="80:8080/tcp,443:8081/tcp" \
-      org.freenas.volumes="[						\
-          {								\
-              \"name\": \"/etc/nginx/certs\",					\
-              \"descr\": \"Path to SSL certificates\"			\
-          }								\
-      ]"                                 \
+      org.freenas.port-mappings="80:7070/tcp,443:7071/tcp" \
       org.freenas.static_volumes="[					\
           {								\
               \"host_path\": \"/var/run/docker.sock\",				\
