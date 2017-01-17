@@ -4,7 +4,10 @@ LABEL org.freenas.interactive="false" \
       org.freenas.upgradeable="true" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \
-      org.freenas.port-mappings="80:3000/tcp" \
+      org.freenas.web-ui-protocol="http" 		\
+      org.freenas.web-ui-port=3000 			\
+      org.freenas.web-ui-path="web" 			\
+      org.freenas.port-mappings="3000:3000/tcp" \
       org.freenas.volumes="[						                              \
           {								                                    \
               \"name\": \"/app/uploads\",					                        \
