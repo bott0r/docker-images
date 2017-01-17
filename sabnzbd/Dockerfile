@@ -14,19 +14,19 @@ LABEL org.freenas.interactive="false" \
               \"descr\": \"Sabnzbd config files\"			\
           },								\
           {								\
-               \"name\": \"/config/admin/certs\",					\
+               \"name\": \"/certs\",					\
                \"descr\": \"SSL certs\"			\
           },								\
           {								\
-              \"name\": \"/config/Downloads/incomplete\",			\
+              \"name\": \"/incomplete-downloads",			\
               \"descr\": \"incomplete downloads volume\"		\
           },								\
           {								\
-              \"name\": \"/config/Downloads/complete\",					\
+              \"name\": \"/downloads\",					\
               \"descr\": \"downloads volume\"				\
            },								\
           {								\
-              \"name\": \"/config/Downloads/watched\",					\
+              \"name\": \"/downloads\",					\
               \"descr\": \"watched folder\"				\
           }								\
       ]" \
