@@ -23,13 +23,8 @@ LABEL org.freenas.interactive="false" \
               \"optional\": true					                              \
           },								                              \
           {								                                    \
-              \"env\": \"PGID\",					                        \
-              \"descr\": \"Name of Group the service will run as\",				\
+              \"env\": \"MONGODB_DATABASE\",					                              \
+              \"descr\": \"Database name\",				\
               \"optional\": true					                              \
-          },								                              \
-          {								                                    \
-              \"env\": \"PUID\",					                        \
-              \"descr\": \"Name of user the service will run as\",				\
-              \"optional\": true					                              \
-          }	                                                                              \
+          }\
       ]"                                                                                  
