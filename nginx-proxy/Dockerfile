@@ -3,7 +3,6 @@ LABEL org.freenas.interactive="false" \
       org.freenas.version="2.0" \
       org.freenas.upgradeable="false" \
       org.freenas.expose-ports-at-host="true" \
-      org.freenas.autostart="true" \
       org.freenas.bridged="false" \
       org.freenas.port-mappings="80:7070/tcp,443:7071/tcp" \
       org.freenas.static_volumes="[					\
