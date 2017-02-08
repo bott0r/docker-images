@@ -1,4 +1,4 @@
-FROM rocketchat/rocket.chat
+FROM rocketchat/rocket.chat:develop
 LABEL org.freenas.interactive="false" \
       org.freenas.version=1 \
       org.freenas.upgradeable="true" \
